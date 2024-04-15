@@ -24,7 +24,8 @@ const Contact = () => {
         }, (error) => {
           console.error('Email could not be sent:', error.text);
           // You can show an error message to the user here
-        });}
+        });
+    }
   return (
     <div ref={scref} id="contact" className="m-4 overflow-y-auto scroll-smooth bg-indigo-50 p-4">
       <h1 className="font-bold text-5xl scroll-smooth justify-center  flex items-center">
